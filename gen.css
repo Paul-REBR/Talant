@@ -1,0 +1,56 @@
+body{
+    border: 70px solid grey;
+    
+    margin: 0;
+}
+button{
+    background-image:linear-gradient(grey,white);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+div.main{
+    font-size: 20px;
+    font-weight: 100;
+    font-style: oblique;
+}
+p#q{
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+div.spatiu{
+    margin-left: 30px;
+}
+input{
+    width: 100px;
+    margin-left: 30px;
+}
+input#mic{
+    width: 20px;
+    margin-left: 2px;
+}
+span#as{
+    margin-left: 10%;
+}
+span#asa{
+    margin-left: 3%;
+}
+span#a{
+    margin-left: 30%;
+}
+span#b{
+    margin-left: 42.5%;
+}
+#rasp1:hover, #rasp2:hover,#rasp3:hover{
+   color: rgb(44, 149, 184);
+}
+#rasp1,#rasp2,#rasp3{
+    margin-left: 50px;
+}
+#rasp1:visited{
+    color: red;
+}
+@media(max-width:600px){
+    body{
+        border: 0;
+    }
+}

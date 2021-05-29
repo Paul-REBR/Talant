@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to bottom , lightgrey,white);
+    background-image: linear-gradient(to right, lightgrey,white);
+    background-image: linear-gradient(to left, lightgrey,white);
+}
+nav{
+    background-image: linear-gradient(to right, grey,white);
+    font-size: 27px;
+    text-align: right;
+    margin-top: 0;
+}
+ul{
+    list-style-type:none; 
+}
+a{
+    font-weight: 600;
+    color: darkslateblue;
+}

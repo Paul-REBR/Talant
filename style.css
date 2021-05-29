@@ -1,0 +1,135 @@
+body{
+    margin: top 0px;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+nav{
+    background-image: url(ed.png);
+
+}
+nav{
+    
+    background-repeat: no-repeat;
+    
+    font-size: 44px;
+    font-weight: 300;
+    color:white;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+nav ul li a{
+    font-size: 32px;
+    margin-top: 0px;
+    margin-right: 20px;
+    float: right;
+    color:white;
+    font-weight:600;
+   
+}
+
+li{
+    
+    background-image: linear-gradient(grey,white);
+
+}
+p{
+    padding-top: 70px;
+}
+
+
+
+h3{
+  
+    line-height: 4.5rem;
+    color: lavender;
+}
+#sdvs{
+    display: none;
+}
+
+footer{
+    background-image: linear-gradient(lightgrey,grey);
+    font-size: 25px;
+    text-align: center;
+  margin-top: 10px;
+}
+.elementor-alert-title{
+    color: #EF0101;
+    font-family: "Roboto", Sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+span div{
+margin-left: 70px;
+margin-right: 70px;
+
+}
+span{
+    margin-left: 100px;
+    margin-right: 70px;
+}
+.oh{
+    padding: 3px;
+    font-size: 24px;
+    margin-left: 70px;
+    margin-right: 70px;
+   margin-bottom: 0;
+  color: #2c6480;
+  font-size: 14px;
+}
+@media(min-width:350px) and (max-width:1074px){
+    nav{
+        background-image: url(min-ed.png);
+    
+    }
+}
+#s{
+    margin-left: 100px;
+    color:saddlebrown;
+    font-weight: 400;
+    font-size: 30px;
+}
+input{
+    margin-right: 0;
+    width: 242px;
+    margin-left: 70px;
+}
+span{
+    margin-left: 0;
+}
+h4{
+    margin-left: 70px;
+}
+h2{
+    margin-left: 70px;
+}
+@media(max-width:350px){
+    p, span div, span, .oh, input, h4,h2{
+        margin: 0;
+        text-align: center;
+    }
+    input{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    span button{
+        margin-left: 30%;
+    }
+    li{
+        list-style-type: none;
+    }
+   nav ul li a{
+       clear: right;
+   }
+   #ldvs{
+       display: none;
+   }
+   #sdvs{
+       display: block;
+   }
+#mar{
+    margin-top: 2px;
+}
+}

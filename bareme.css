@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to bottom , lightgrey,white);
+    background-image: linear-gradient(to right, lightgrey,white);
+}
+span input{
+    height: 30px;
+    width: 500px;
+}
+button{
+    height: 30px;
+}
+a:hover{
+   height:30px;
+   width: 70px;
+
+}

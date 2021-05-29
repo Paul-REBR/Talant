@@ -1,0 +1,10 @@
+body div{
+    background-color:yellowgreen;
+    height: 100px;
+    width: 1260px;
+    float: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+}
